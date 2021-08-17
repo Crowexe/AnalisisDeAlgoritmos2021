@@ -3,8 +3,6 @@
 #include <conio.h>
 #include <time.h>
 
-
-
 int main() {
 
 	int nums, v, i, j, *arr, temp;
@@ -27,7 +25,7 @@ int main() {
 
 	srand(time(NULL));
 	for (i=0; i<nums; i++) {
-		v=0+rand();
+		v=rand();
 		arr[i]=v;
 		//printf("%d\n",arr[i]);
 	}
