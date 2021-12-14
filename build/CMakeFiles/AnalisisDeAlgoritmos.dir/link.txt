@@ -1,3 +1,0 @@
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E remove -f CMakeFiles\AnalisisDeAlgoritmos.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\AnalisisDeAlgoritmos.dir/objects.a @CMakeFiles\AnalisisDeAlgoritmos.dir\objects1.rsp
-C:\MinGW\bin\mingw32-g++.exe -g   -Wl,--whole-archive CMakeFiles\AnalisisDeAlgoritmos.dir/objects.a -Wl,--no-whole-archive  -o AnalisisDeAlgoritmos.exe -Wl,--out-implib,libAnalisisDeAlgoritmos.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\AnalisisDeAlgoritmos.dir\linklibs.rsp
