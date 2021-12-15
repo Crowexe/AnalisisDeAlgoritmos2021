@@ -1,30 +1,28 @@
-#include<stdio.h>
+#include<stdio.h>	
 
-    long long int resolver(long long int n) {
-        if(n % 1 == 0) n = n + 1;
-        long long int a;
-		a = (n/2)*5;
+int main() {
+	int tc = 0;
+	scanf("%d", &tc);
 
-			while(a%(5/2) != 0) {
-				a = a + 1;
-			}
+	for(int i = 0; i < tc; i++) {
 
-        return a;
-    }
+		long long int n;	
+		long long int ans;	
 
+		scanf("%lld", &n);
 
-    int main() {
-        int tc = 0;
-        long long int n = 0;
+		if(n % 2 != 0) {
+			n = n + 1;
+		}		
 
-        scanf("%d", &t);
-
-		for(int i = 0; i < tc; i++) {
-
-			scanf("%lld", &n);
-			printf("%lld\n", resolver(n));
-
+		if ((n + 1) >= 6) {
+			ans = (n / 2) * 5;
+			printf("%lld\n", ans);
 		}
-
-		return 0;
-    }
+		else {
+			ans = (6 / 2) * 5;
+			printf("%lld\n", ans);
+		}		
+	}
+	return 0;
+}
